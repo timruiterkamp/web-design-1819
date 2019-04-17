@@ -1,0 +1,11 @@
+{
+  "name": "web-design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/timruiterkamp/web-design-1819.git",
+  "author": "Tim <timruiterkamp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "vue-cli-service app/serve"
+  }
+}
