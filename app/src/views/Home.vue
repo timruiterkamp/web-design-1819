@@ -896,6 +896,97 @@ export default {
         0 0 300px 160px #f0f, /* middle magenta */
         0 0 540px 190px #0ff` /* outer cyan */
         };
+      } else if (time >= 27 && time < 29) {
+        return {
+          width: `60px`,
+          height: `40vh`,
+          borderRadius: `50%`,
+          backgroundColor: "rgb(0, 150, 0)",
+          top: `50%`,
+          left: `80%`,
+          transform: `translate(-50%, -50%)`,
+          boxShadow: `0 0 60px 130px rgb(0, 150, 0),  /* inner white */
+        0 0 300px 160px rgb(0, 150, 0), /* middle magenta */
+        0 0 540px 190px rgb(0, 150, 0)` /* outer cyan */
+        };
+      } else if (time >= 29 && time < 35) {
+        return {
+          width: `60px`,
+          height: `40vh`,
+          borderRadius: `50%`,
+          backgroundColor: "rgb(255, 168, 84)",
+          top: `50%`,
+          left: `30%`,
+          transform: `translate(-50%, -50%)`,
+          boxShadow: `0 0 60px 130px rgb(255, 168, 84),  /* inner white */
+        0 0 300px 160px rgb(255, 168, 84), /* middle magenta */
+        0 0 540px 190px rgb(255, 168, 84)` /* outer cyan */
+        };
+      } else if (time >= 36 && time < 42) {
+        return {
+          width: `60px`,
+          height: `40vh`,
+          borderRadius: `50%`,
+          backgroundColor: "rgb(255, 196, 140)",
+          top: `50%`,
+          left: `30%`,
+          transform: `translate(-50%, -50%)`,
+          boxShadow: `0 0 60px 130px rgb(255, 196, 140),  /* inner white */
+        0 0 300px 160px rgb(255, 196, 140), /* middle magenta */
+        0 0 540px 190px rgb(255, 196, 140)` /* outer cyan */
+        };
+      } else if (time >= 42 && time < 46) {
+        return {
+          width: `85vh`,
+          height: `70vh`,
+          borderRadius: `50%`,
+          backgroundColor: "rgb(140, 140, 255)",
+          top: `50%`,
+          left: `50%`,
+          transform: `translate(-50%, -50%)`,
+          boxShadow: `0 0 60px 130px rgb(140, 140, 255),  /* inner white */
+        0 0 300px 160px rgb(140, 140, 255), /* middle magenta */
+        0 0 540px 190px rgb(140, 140, 255)` /* outer cyan */
+        };
+      } else if (time >= 46 && time < 49) {
+        return {
+          width: `85vh`,
+          height: `70vh`,
+          borderRadius: `50%`,
+          backgroundColor: "rgb(255, 168, 84)",
+          top: `50%`,
+          left: `50%`,
+          transform: `translate(-50%, -50%)`,
+          boxShadow: `0 0 60px 130px rgb(255, 168, 84),  /* inner white */
+        0 0 300px 160px rgb(255, 168, 84), /* middle magenta */
+        0 0 540px 190px rgb(255, 168, 84)` /* outer cyan */
+        };
+      } else if (time >= 49 && time < 51) {
+        return {
+          width: `85vh`,
+          height: `70vh`,
+          borderRadius: `50%`,
+          backgroundColor: "rgb(84, 255, 84)",
+          top: `50%`,
+          left: `50%`,
+          transform: `translate(-50%, -50%)`,
+          boxShadow: `0 0 60px 130px rgb(84, 255, 84),  /* inner white */
+        0 0 300px 160px rgb(84, 255, 84), /* middle magenta */
+        0 0 540px 190px rgb(84, 255, 84)` /* outer cyan */
+        };
+      } else if (time >= 53 && time < 55) {
+        return {
+          width: `85vh`,
+          height: `70vh`,
+          borderRadius: `50%`,
+          backgroundColor: "rgb(255, 140, 140)",
+          top: `50%`,
+          left: `50%`,
+          transform: `translate(-50%, -50%)`,
+          boxShadow: `0 0 60px 130px rgb(255, 140, 140),  /* inner white */
+        0 0 300px 160px rgb(255, 140, 140), /* middle magenta */
+        0 0 540px 190px rgb(255, 140, 140)` /* outer cyan */
+        };
       } else if (time >= 65 && time < 68) {
         return {
           width: `60px`,
@@ -1074,13 +1165,13 @@ export default {
         return "That's an overstatement";
       } else if (time > 44 && time < 45) {
         return "I barely knew her";
-      } else if (time > 47 && time < 49) {
+      } else if (time > 46 && time < 48) {
         return "Well.. why don't we start at the beginning";
-      } else if (time > 50 && time < 51) {
+      } else if (time > 48 && time < 49) {
         return "Is it Andrew or...";
-      } else if (time > 51 && time < 53) {
+      } else if (time > 49 && time < 52) {
         return "It's Andy!";
-      } else if (time > 54 && time < 55) {
+      } else if (time > 53 && time < 55) {
         return "My name is Andy";
       } else if (time > 58 && time < 60) {
         return "* Clapping *";
